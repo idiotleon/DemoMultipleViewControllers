@@ -12,6 +12,7 @@
 		359744D32030FBCC00028526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359744D12030FBCC00028526 /* Main.storyboard */; };
 		359744D52030FBCC00028526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359744D42030FBCC00028526 /* Assets.xcassets */; };
 		359744D82030FBCC00028526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359744D62030FBCC00028526 /* LaunchScreen.storyboard */; };
+		359744E02030FF7800028526 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359744DF2030FF7800028526 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		359744D42030FBCC00028526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		359744D72030FBCC00028526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		359744D92030FBCC00028526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359744DF2030FF7800028526 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				359744D42030FBCC00028526 /* Assets.xcassets */,
 				359744D62030FBCC00028526 /* LaunchScreen.storyboard */,
 				359744D92030FBCC00028526 /* Info.plist */,
+				359744DF2030FF7800028526 /* SecondViewController.swift */,
 			);
 			path = DemoMultipleViewControllers;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359744E02030FF7800028526 /* SecondViewController.swift in Sources */,
 				359744D02030FBCC00028526 /* ViewController.swift in Sources */,
 				359744CE2030FBCC00028526 /* AppDelegate.swift in Sources */,
 			);
